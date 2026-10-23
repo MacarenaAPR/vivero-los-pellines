@@ -124,7 +124,7 @@ export default function App() {
             <div className="contact__details">
               <div className="contact-item"><Icon name="phone"/><div><small>WhatsApp</small><strong>Escríbenos</strong><span>Consultas, visitas y colaboraciones</span></div></div>
               {/* TODO: validar la cuenta de Instagram y convertirla en enlace definitivo. */}
-              <div className="contact-item"><Icon name="instagram"/><div><small>Instagram</small><strong>@viverolospellines</strong><span>Novedades y registros del vivero</span></div></div>
+              {/* <div className="contact-item"><Icon name="instagram"/><div><small>Instagram</small><strong>@viverolospellines</strong><span>Novedades y registros del vivero</span></div></div> */}
               <div className="contact-item"><Icon name="pin"/><div><small>Nos encuentras en</small><strong>Los Pellines · Valdivia</strong><span>Región de Los Ríos, Chile</span></div></div>
               <div className="contact-item"><Icon name="clock"/><div><small>Visitas</small><strong>Previa coordinación</strong><span>Conversemos para preparar tu visita</span></div></div>
             </div>
