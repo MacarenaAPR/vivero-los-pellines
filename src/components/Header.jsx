@@ -32,7 +32,7 @@ export default function Header() {
       </button>
       <nav className={open ? 'nav nav--open' : 'nav'} aria-label="Navegación principal">
         {links.map(([label, id]) => <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>{label}</a>)}
-        <a className="nav__cta" href="https://wa.me/56912345678" target="_blank" rel="noreferrer">Escríbenos</a>
+        <a className="nav__cta" href="https://wa.me/56935395789" target="_blank" rel="noreferrer">Escríbenos</a>
       </nav>
     </header>
   )

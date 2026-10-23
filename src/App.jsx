@@ -119,7 +119,7 @@ export default function App() {
               <h2>Sigamos cultivando <em>juntos</em></h2>
               <p>¿Quieres conocer Vivero Los Pellines, coordinar una visita o conversar sobre posibles actividades y colaboraciones? Escríbenos.</p>
               {/* TODO: validar el número definitivo de WhatsApp antes de publicar. */}
-              <a className="button button--whatsapp" href="https://wa.me/56912345678?text=Hola%20Vivero%20Los%20Pellines%2C%20quisiera%20conversar%20sobre%20una%20visita%20o%20colaboraci%C3%B3n." target="_blank" rel="noreferrer">Conversemos <Icon name="arrow" size={20}/></a>
+              <a className="button button--whatsapp" href="https://wa.me/56935395789?text=Hola%20Vivero%20Los%20Pellines%2C%20quisiera%20conversar%20sobre%20una%20visita%20o%20colaboraci%C3%B3n." target="_blank" rel="noreferrer">Conversemos <Icon name="arrow" size={20}/></a>
             </div>
             <div className="contact__details">
               <div className="contact-item"><Icon name="phone"/><div><small>WhatsApp</small><strong>Escríbenos</strong><span>Consultas, visitas y colaboraciones</span></div></div>
