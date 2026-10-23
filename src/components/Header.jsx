@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Icon } from './Icons'
+import logo from '../assets/Logo.png'
 
 const links = [
   ['Inicio', 'inicio'],
@@ -23,8 +24,8 @@ export default function Header() {
 
   return (
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
-      <a className="brand" href="#inicio" aria-label="Vivero Los Pellines, ir al inicio">
-        <span className="brand__mark"><Icon name="sprout" size={22}/></span>
+      <a className="brand header__brand" href="#inicio" aria-label="Vivero Los Pellines, ir al inicio">
+        <img className="header__logo" src={logo} alt="Vivero Los Pellines"/>
         <span><strong>Los Pellines</strong><small>Vivero de campo</small></span>
       </a>
       <button className="menu-button" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={open} onClick={() => setOpen(!open)}>
