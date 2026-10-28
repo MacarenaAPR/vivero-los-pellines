@@ -4,6 +4,9 @@ import imagen3 from '../assets/niños3.png'
 import imagen4 from '../assets/alcalde2.png'
 import imagen5 from '../assets/alcalde3.png'  
 import imagen6 from '../assets/alcalde1.png'
+import expo1 from '../assets/expo1.png'
+import expo2 from '../assets/expo2.png'
+import expo3 from '../assets/expo3.png'
 
 // Imágenes temporales: reemplazar cada `src` cuando estén disponibles los registros reales.
 export const experiences = [
@@ -32,6 +35,22 @@ export const experiences = [
       { src: imagen4, alt: 'Vista del vivero; imagen temporal pendiente de reemplazo', position: '58% center' },
       { src: imagen5, alt: 'Alcalde en el vivero; imagen temporal pendiente de reemplazo', position: '50% 50%' },
       { src: imagen6, alt: 'Actividad comunitaria en el vivero; imagen temporal pendiente de reemplazo', position: 'left' },
+    ],
+  },
+  {
+    id: 'expo-primavera-2026',
+    layout: 'expo',
+    category: 'Comunidad · Feria · Territorio',
+    title: 'Expo Primavera 2026',
+    paragraphs: [
+      'Vivero Los Pellines participó en Expo Primavera 2026, una instancia de encuentro junto a la comunidad donde compartimos nuestras plantas, especies nativas y el trabajo que realizamos desde nuestro territorio.',
+      'La participación en esta feria permitió acercar nuestro vivero a nuevas personas, compartir experiencias y seguir fortaleciendo el vínculo entre naturaleza, comunidad y territorio.',
+    ],
+    photoLabel: 'Registro fotográfico del evento',
+    images: [
+      { src: expo2, alt: 'Encargada de Vivero Los Pellines detrás del puesto en Expo Primavera 2026', position: '42% center' },
+      { src: expo1, alt: 'Plantas y especies nativas exhibidas en el puesto de Vivero Los Pellines', position: '38% center' },
+      { src: expo3, alt: 'Vista general del stand de Vivero Los Pellines y el recinto de Expo Primavera 2026', position: '48% center' },
     ],
   },
 ]

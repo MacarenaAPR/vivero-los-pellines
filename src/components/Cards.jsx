@@ -20,7 +20,7 @@ export function ProductCard({ product }) {
       </div>
       <div className="product-card__body">
         <div><h3>{product.name}</h3><p>{product.detail}</p></div>
-        <div className="product-card__bottom"><strong>{product.price}</strong><a href={`https://wa.me/56935395789?text=${message}`} target="_blank" rel="noreferrer" aria-label={`Consultar por ${product.name}`}><Icon name="arrow" size={18}/></a></div>
+        <div className="product-card__bottom"><strong>{product.price}</strong><a href={`https://wa.me/56935395789?text=${message}`} target="_blank" rel="noopener noreferrer" aria-label={`Consultar por ${product.name}`}><Icon name="arrow" size={18}/></a></div>
       </div>
     </article>
   )

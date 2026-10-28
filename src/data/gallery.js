@@ -5,6 +5,7 @@ import imagen4 from '../assets/imagen7.png'
 import imagen5 from '../assets/imagen4.png'
 import imagen6 from '../assets/imagen6.png'
 import imagen7 from '../assets/imagen5.png'
+import imagen8 from '../assets/imagen8.png'
 
 // Galería temporal: image, alt, caption, category y position están listos para cada foto real.
 export const galleryItems = [
@@ -14,5 +15,6 @@ export const galleryItems = [
   { id: 4, image: imagen4, alt: 'Manos plantando en una maceta', caption: 'Aprender haciendo y compartiendo.', category: 'Educación', position: '8% center', layout: 'tall' },
   { id: 5, image: imagen5, alt: 'Sendero al interior del vivero', caption: 'Un espacio abierto al encuentro.', category: 'Comunidad', position: '65% center', layout: 'wide' },
   { id: 6, image: imagen6, alt: 'Almácigos y plantas sobre una mesa', caption: 'Procesos que crecen con paciencia.', category: 'Vivero', position: '12% center', layout: 'standard' },
-  { id: 7, image: imagen7, alt: 'Herramientas y tierra preparadas para plantar', caption: 'Historias que comienzan en la tierra.', category: 'Territorio', position: '92% center', layout: 'wide' },
+  { id: 7, image: imagen7, alt: 'Herramientas y tierra preparadas para plantar', caption: 'Historias que comienzan en la tierra.', category: 'Territorio', position: 'center', layout: 'wide' },
+  { id: 8, image: imagen8, alt: 'Niño abrazando el tronco de un árbol en el bosque', caption: 'Crecer en vínculo con la naturaleza.', category: 'Conexión', position: '50% 42%', layout: 'portrait' },
 ]

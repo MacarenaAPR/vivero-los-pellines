@@ -1,13 +1,14 @@
 export default function ExperienceCard({ experience, index }) {
   const dark = index % 2 === 1
+  const layoutClass = experience.layout ? ` experience-card--${experience.layout}` : ''
 
   return (
-    <article className={`experience-card ${dark ? 'experience-card--dark experience-card--reverse' : ''}`}>
+    <article className={`experience-card${dark ? ' experience-card--dark experience-card--reverse' : ''}${layoutClass}`}>
       <div className="experience-card__media">
         {experience.images.map((image, imageIndex) => (
           <figure className={imageIndex === 0 ? 'experience-card__main-image' : 'experience-card__secondary-image'} key={`${experience.id}-${imageIndex}`}>
             <img src={image.src} alt={image.alt} style={{ objectPosition: image.position }} loading="lazy"/>
-            {imageIndex === 0 && <figcaption>Registro fotografico del evento</figcaption>}
+            {imageIndex === 0 && <figcaption>{experience.photoLabel ?? 'Registro fotografico del evento'}</figcaption>}
           </figure>
         ))}
       </div>
